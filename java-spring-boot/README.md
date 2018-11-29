@@ -283,12 +283,17 @@ Review the test cases present in `src/test/java/com/hackerrank/requests/` folder
 
 - Go to `Library > Create Question > Back-end Developer (beta)` to create a new Back-end Developer question.
 
+![create question](https://support.hackerrank.com/hc/article_attachments/360017918534/Select_Question_type.jpg)
+
 - You must start by selecting a framework. For this project, select `Java Spring Boot`. If you are creating a .NET, Go or PHP question, select `Custom`.
 
 ### Step 2: Import Project & Validate
 
 - In this step, you must import the project we prepared in `Step 0`. You can import it via a public git url, or by uploading a zip of the folder. Once imported, you can then validate the project.
 - Validation is a mandatory step. It verifies that your project has a valid `hackerrank.yml` file and the configuration provided works. If the scoring command is configured, the scoring will be run. We will then try to find the scoring files and score the project. If this step fails, you will get an error and the log of the scoring command. Validation can also take several minutes if the scoring command is a time consuming one.
+
+![Validate question](https://support.hackerrank.com/hc/article_attachments/360001397028/5th.jpg)
+
 - This sample project should validate without any error. Most projects should pass validation without any error if the scoring command run locally and produces the output files in the right path, as provided in the configuration.
 - Once validated successfully, you can hit `Proceed`.
 
